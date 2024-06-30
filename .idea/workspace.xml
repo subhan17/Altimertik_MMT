@@ -4,30 +4,47 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="707e7ca8-4acd-4fed-a390-7160bcbc127b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mmt/pages/AbstractPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mmt/pages/FlightsSearchPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/mmt/tests/AbstractTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/mmt/tests/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/mmt/tests/FlightSearch.java" afterDir="false" />
+    <list default="true" id="707e7ca8-4acd-4fed-a390-7160bcbc127b" name="Changes" comment="Altimetrik challenge first commit">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/mmt/pages/CompleteYourBookingPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/mmt/pages/FlightSearchResultPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/mmt/pages/FlightsSearchPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/mmt/pages/ForexPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/mmt/resources/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/mmt/resources/test_suite/MMTFlight-reservation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/mmt/tests/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/mmt/tests/ForexValidations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/mmt/tests/MultiCityFlightSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/mmt/utils/AllureTestListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/mmt/utils/ConfigLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/mmt/utils/PropertyUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mmt/pages/AbstractPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/mmt/pages/AbstractPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mmt/pages/FlightsSearchPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/mmt/tests/AbstractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/mmt/tests/AbstractTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/mmt/tests/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/mmt/tests/FlightSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/mmt/tests/FlightSearch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2iSE5wN4GBML0oBRydphQ08jDRv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -35,28 +52,60 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Altimetrik_MMT/src/main/java/org/mmt/pages",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Altimetrik_MMT/src/test/java/org/mmt/resources/test_suite&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Altimetrik_MMT\src\test\java\org\mmt\resources\test_suite" />
+      <recent name="D:\Altimetrik_MMT\src\test\java\org\mmt\resources" />
+      <recent name="D:\Altimetrik_MMT\src\test\java\org\mmt\utils" />
+      <recent name="D:\Altimetrik_MMT\src\test\java\org\mmt\pages" />
       <recent name="D:\Altimetrik_MMT\src\main\java\org\mmt\pages" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.mmt.pages" />
       <recent name="org.mmt.tests" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.FlightSearch.OneWayFlightSearch">
+    <configuration name="D:/Altimetrik_MMT/src/test/java/org/mmt/resources/test_suite/MMTFlight-reservation.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Altimetrik_MMT" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/org/mmt/resources/test_suite/MMTFlight-reservation.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlightSearch" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Altimetrik_MMT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mmt.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.mmt.tests" />
+      <option name="MAIN_CLASS_NAME" value="org.mmt.tests.FlightSearch" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FlightSearch.OneWayFlightSearch" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Altimetrik_MMT" />
       <extension name="coverage">
@@ -75,9 +124,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FlightSearch.SampleTestCase2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Altimetrik_MMT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mmt.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.mmt.tests" />
+      <option name="MAIN_CLASS_NAME" value="org.mmt.tests.FlightSearch" />
+      <option name="METHOD_NAME" value="SampleTestCase2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ForexValidations.forexValidations" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Altimetrik_MMT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mmt.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.mmt.tests" />
+      <option name="MAIN_CLASS_NAME" value="org.mmt.tests.ForexValidations" />
+      <option name="METHOD_NAME" value="forexValidations" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.FlightSearch.OneWayFlightSearch" />
+        <item itemvalue="TestNG.D:/Altimetrik_MMT/src/test/java/org/mmt/resources/test_suite/MMTFlight-reservation.xml" />
+        <item itemvalue="TestNG.ForexValidations.forexValidations" />
+        <item itemvalue="TestNG.FlightSearch" />
+        <item itemvalue="TestNG.FlightSearch.SampleTestCase2" />
       </list>
     </recent_temporary>
   </component>
@@ -90,6 +179,31 @@
       <option name="presentableId" value="Default" />
       <updated>1719475398898</updated>
     </task>
+    <task id="LOCAL-00001" summary="Altimetrik challenge first commit">
+      <option name="closed" value="true" />
+      <created>1719479120222</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1719479120222</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Altimetrik challenge first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Altimetrik challenge first commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="TestNG">
+        <watch expression="e.getText()" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Altimetrik_MMT$FlightSearch_OneWayFlightSearch.ic" NAME="FlightSearch.OneWayFlightSearch Coverage Results" MODIFIED="1719488298857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.mmt.tests.*</FILTER>
+    </SUITE>
   </component>
 </project>

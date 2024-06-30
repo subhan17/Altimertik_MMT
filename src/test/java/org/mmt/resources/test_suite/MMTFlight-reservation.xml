@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="MMTFlight-Reservation">
+    <test name="OneWay_FilterAnalysis" parallel="classes" thread-count="2">
+        <classes>
+            <class name="org.mmt.tests.FlightSearch"/>
+            <class name="org.mmt.tests.MultiCityFlightSearch"/>
+            <class name="org.mmt.tests.ForexValidations"/>
+        </classes>
+    </test>
+</suite>
